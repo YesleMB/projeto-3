@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+}
+header{
+  position:static;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #85B14D;
+  height: 50px;
+  width: 100vw;
+  box-shadow: 2px 2px 6px 2px #000;
+  margin: 0;
+ padding: 0;
+}
+button{
+  background-color:#85B14D ;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 50px;
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+button:hover{
+  background-color: #ffff;
+}
+.menu1{
+  display: flex;
+  border: solid 20px;
+  width: 20px;
+  height: 20px;
+}
+main h1{
+  position: relative;
+  inset: 30px;
+  font-size: 4rem;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 10px;
+}
+.texto1{
+  overflow-wrap: break-word;
+  width: 30vw;
+  height: 16,1vh;
+ 
+  position: relative;
+  left: 50px;
+  top: 75px;
+
+  
+}
+.texto1 p{
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside{
+  position: relative;
+  left: 60vw;
+  bottom: 100vh;
+  height: 40vh;
+  width: 40vw;  
+  margin: 0;
+ background-image:url('./fotos/4136673.jpg');
+ background-size: contain;
+ background-repeat: no-repeat;
+
+}
+footer{
+  height: 15vh;
+  width: 100vw;
+  background-color: #506F29;
+  box-shadow: 2px -2px 6px 2px #000;
+  display: flex;
+}
+.contato{
+display: flex;
+flex-direction: column;
+gap: 10px;
+font-size: 1.6rem;
+}
+section{
+  position: relative;
+  top: 30vh;
+
+  
+}
+.cards{
+  display: flex;
+  position: relative;
+  max-width:100rem ;
+  max-height: 800px;
+}
+img{
+  width: 30vw;
+  height: 70vh;
+  position: relative;
+  left: 35vw;
+}
+.icones{
+  position:absolute;
+  left: 96%;
+  
+}
+.face{
+  background-image: url('./fotos/facebook.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 5vh;
+  width: 5vw;
+  
+}
+.inst {
+background-image: url('./fotos/instagram.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 5vh;
+  width: 5vw;
+top: 5px;
+position: relative;
+}
+
+
